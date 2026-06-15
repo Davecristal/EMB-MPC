@@ -1,6 +1,6 @@
 # EMB-MPC: Online Evolving Model-Bank Model Predictive Control for Friction-Adaptive Autonomous Racing
 
-This repository provides the simulation code used for EMB-MPC.
+This repository provides the code used for EMB-MPC.
 
 ## Environment
 
