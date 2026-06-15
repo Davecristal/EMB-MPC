@@ -1,0 +1,22 @@
+track: ETHZ
+raceline: embmpc/tracks/src/ethz_raceline_long_.npz
+centerline: embmpc/tracks/src/ethz_center.txt
+inner_boundary: embmpc/tracks/src/ethz_inner.txt
+outer_boundary: embmpc/tracks/src/ethz_outer.txt
+model_bank_sizes:
+  - 5000
+  - 10000
+  - 20000
+scenarios:
+  - no_change
+  - sudden_drop
+  - gradual_decay
+  - staged_decay
+  - early_drop
+  - late_drop
+entry_points:
+  emb_mpc_average: embmpc.mpc.run_nmpc_orca_embmpc_avg_runs
+  lla_mpc_rt: embmpc.mpc.run_nmpc_orca_llampc_rt
+  lla_mpc_nrt: embmpc.mpc.run_nmpc_orca_llampc_nrt
+  apacrace: embmpc.mpc.run_nmpc_apacrace
+  oracle: embmpc.mpc.run_nmpc_oracle

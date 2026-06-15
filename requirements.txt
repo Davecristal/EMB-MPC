@@ -1,0 +1,13 @@
+# Python 3.9 recommended
+jax==0.4.30
+jaxlib==0.4.30
+casadi==3.7.2
+numpy
+scipy
+matplotlib
+scikit-learn
+torch
+numba
+requests
+joblib
+imageio
