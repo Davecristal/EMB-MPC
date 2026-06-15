@@ -27,7 +27,7 @@ Use the CUDA/JAX wheel matching your machine. For CPU-only smoke tests, install 
 EMB-MPC:
 
 ```bash
-python -m embmpc.mpc.run_nmpc_orca_embmpc_unknown_detector --help
+python -m embmpc.mpc.run_nmpc_orca_embmpc --help
 python -m embmpc.mpc.run_nmpc_orca_embmpc_avg_runs --help
 ```
 
@@ -45,7 +45,7 @@ python -m embmpc.mpc.run_nmpc_oracle --help
 Experiment 1, EMB-MPC single-run diagnostics on ETHZMobil:
 
 ```bash
-python -m embmpc.mpc.run_nmpc_orca_embmpc_unknown_detector --n_models 20000 --seed 42 --no_video --no_plots --output_file results/embmpc_ethzmobil_n20000_seed42.json
+python -m embmpc.mpc.run_nmpc_orca_embmpc --n_models 20000 --seed 42 --no_video --no_plots --output_file results/embmpc_ethzmobil_n20000_seed42.json
 ```
 
 Experiment 2, EMB-MPC 10-run average on ETHZ:
